@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::resource('fcm', 'FCMController');
+Route::prefix('rfm')->group(function () {
+    Route::get('', 'RFMChartController@index');
+});
