@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Storage;
 ini_set('memory_limit', '512M');
 class AprioriService
 {
-
     /**
      * 登革熱資料集
      * link:https://data.gov.tw/dataset/21026

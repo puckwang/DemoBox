@@ -12,6 +12,10 @@ class AprioriController extends Controller
 
     private $direct = "DESC";
 
+    /**
+     * 需執行: puck:run-apriori
+     */
+
     public function cmp($a, $b)
     {
         if ($this->direct === "ASC") {
