@@ -17,11 +17,13 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="/fcm">手機推播訊息</a>
                 <a class="nav-item nav-link" href="/rfm">RFM Chart</a>
+                <a class="nav-item nav-link" href="/apriori">Apriori</a>
             </div>
         </div>
     </nav>
     <br>
     <h2>@yield('title', 'Demo')</h2>
+    <hr>
     @yield('content')
 </div>
 </body>

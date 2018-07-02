@@ -19,3 +19,6 @@ Route::resource('fcm', 'FCMController');
 Route::prefix('rfm')->group(function () {
     Route::get('', 'RFMChartController@index');
 });
+Route::prefix('apriori')->group(function () {
+    Route::get('', 'AprioriController@index');
+});

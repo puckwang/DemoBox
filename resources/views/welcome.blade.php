@@ -74,6 +74,7 @@
                 <div class="links">
                     <a href="/fcm">手機推播訊息</a>
                     <a href="/rfm">RFM Chart</a>
+                    <a href="/apriori">Apriori</a>
                 </div>
             </div>
         </div>
